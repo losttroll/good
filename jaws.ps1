@@ -1,19 +1,3 @@
-<#
-.SYNOPSIS
-Windows enumeration script
-.DESCRIPTION
-This script is designed to be used in a penetration test or CTF
-enviroment. It will enumerate useful information from the host
-for privilege escalation.
-.EXAMPLE
-PS > .\jaws-enum.ps1 
-will write results out to screen.
-.EXAMPLE
-PS > .\jaws-enum.ps1 -OutputFileName Jaws-Enum.txt
-Writes out results to Jaws-Enum.txt in current directory.
-.LINK
-https://github.com/411Hall/JAWS
-#>
 Param(
     [String]$OutputFilename = ""
 )
